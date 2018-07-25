@@ -14,8 +14,8 @@
 
 $(call inherit-product, device/huawei/alice/full_alice.mk)
 
-# Inherit some common AOSiP stuff.
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+# Inherit some common AEX stuff.
+$(call inherit-product, vendor/aosp/common.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
